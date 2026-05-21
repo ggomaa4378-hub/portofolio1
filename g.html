@@ -1,0 +1,210 @@
+# Portfolio Project Structure
+
+## 1- index.html
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Ganna Portfolio</title>
+
+  <link rel="stylesheet" href="style.css" />
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+  <!-- Icons -->
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+  />
+</head>
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar">
+    <div class="logo">
+  <svg class="logo-icon" viewBox="0 0 100 100">
+    <defs>
+      <linearGradient id="grad" x1="0%" y1="0%" x2="100%" y2="100%">
+        <stop offset="0%" stop-color="#38bdf8"/>
+        <stop offset="100%" stop-color="#6366f1"/>
+      </linearGradient>
+    </defs>
+
+    <circle cx="50" cy="50" r="45" fill="url(#grad)" opacity="0.15"/>
+
+    <text x="50%" y="55%" text-anchor="middle"
+          font-size="40" font-weight="bold"
+          fill="url(#grad)"
+          font-family="Poppins">
+      GG
+    </text>
+  </svg>
+
+  <span>Ganna</span>
+</div>
+
+    <ul class="nav-links">
+      <li><a href="#home">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- Hero -->
+  <section class="hero" id="home">
+    <div class="hero-text">
+      <h3>Hello, I'm</h3>
+      <h1>Ganna Allah Mohamed Goneam</h1>
+      <h2>UI Designer & Flutter Developer</h2>
+
+      <p>
+        Passionate about building modern responsive websites and mobile applications
+        using Flutter, Dart, HTML, CSS and JavaScript.
+      </p>
+
+      <div class="hero-buttons">
+        <a href="#projects" class="btn primary-btn">View Projects</a>
+        <a href="#contact" class="btn secondary-btn">Contact Me</a>
+      </div>
+
+      <div class="social-icons">
+        <a href="#"><i class="fab fa-github"></i></a>
+        <a href="https://www.linkedin.com/in/ganna-mohamed-goneam-gomaa-295095366?utm_source=share_via&utm_content=profile&utm_medium=member_ios"><i class="fab fa-linkedin"></i></a>
+        <a href="https://www.instagram.com/gannamohamedgoneam?igsh=MXNwN3FuczNwa29vMw%3D%3D&utm_source=qr"><i class="fab fa-instagram"></i></a>
+      </div>
+    </div>
+
+    <!-- Your Image -->
+    <div class="hero-image">
+      <img src=" WhatsApp Image 2026-05-21 at 6.03.31 PM.jpeg" alt="Ganna Photo">
+    </div>
+  </section>
+
+  <!-- About -->
+  <section class="about" id="about">
+    <div class="section-title">
+      <h2>About Me</h2>
+    </div>
+
+    <div class="about-container">
+      <div class="about-card">
+        <h3>Who Am I?</h3>
+
+        <p>
+          I'm a student at Sinai University with a CGPA of 3.50.
+          I specialize in UI Design and Front-End Development.
+          I also build mobile applications using Flutter & Dart.
+        </p>
+      </div>
+
+      <div class="about-card">
+        <h3>Education</h3>
+
+        <p>
+          Sinai University <br>
+          Faculty of Information Technology & Computer Science
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Skills -->
+  <section class="skills" id="skills">
+    <div class="section-title">
+      <h2>Skills</h2>
+    </div>
+
+    <div class="skills-container">
+      <div class="skill-box">HTML5</div>
+      <div class="skill-box">CSS3</div>
+      <div class="skill-box">JavaScript</div>
+      <div class="skill-box">Flutter</div>
+      <div class="skill-box">Dart</div>
+      <div class="skill-box">UI Design</div>
+      <div class="skill-box">Responsive Design</div>
+      <div class="skill-box">Mobile Apps</div>
+    </div>
+  </section>
+
+  <!-- Projects -->
+  <section class="projects" id="projects">
+    <div class="section-title">
+      <h2>Projects</h2>
+    </div>
+
+    <div class="projects-container">
+
+      <div class="project-card">
+        <h3>Smart Assistant</h3>
+
+        <p>
+          Smart assistant website for managing tasks, exams, notes and schedules.
+        </p>
+      </div>
+
+      <div class="project-card">
+        <h3>Flutter Mobile App</h3>
+
+        <p>
+          Mobile application built using Flutter & Dart with responsive UI.
+        </p>
+      </div>
+
+      <div class="project-card">
+        <h3>E-Commerce UI</h3>
+
+        <p>
+          Professional shopping website interface with modern animations.
+        </p>
+      </div>
+
+      <div class="project-card">
+        <h3>Task Management System</h3>
+
+        <p>
+          Interactive task manager using HTML, CSS and JavaScript.
+        </p>
+      </div>
+
+      <div class="project-card">
+        <h3>Portfolio Website</h3>
+
+        <p>
+          Personal responsive portfolio with premium UI design.
+        </p>
+      </div>
+
+      <div class="project-card">
+        <h3>UI Dashboard</h3>
+
+        <p>
+          Analytics dashboard interface with cards, charts and responsive layout.
+        </p>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section class="contact" id="contact">
+    <div class="section-title">
+      <h2>Contact Me</h2>
+    </div>
+
+    <div class="contact-box">
+      <p><i class="fa-solid fa-envelope"></i> g.gomaa4378@su.edu.eg</p>
+      <p><i class="fa-solid fa-graduation-cap"></i> Sinai University</p>
+      <p><i class="fa-solid fa-star"></i> CGPA: 3.50</p>
+    </div>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
